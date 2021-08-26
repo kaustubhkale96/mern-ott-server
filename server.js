@@ -34,7 +34,7 @@ app.use("/api/video/dislike", require("./routes/dislike.routes"));
 
 
 app.get("/", (res) => {
-    res.json({ message: "Welcome to ShowTV server" });
+    res.send({ message: "Welcome to ShowTV server" });
 });
 
 const PORT = process.env.PORT || 5000;
