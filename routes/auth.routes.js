@@ -1,7 +1,7 @@
 const { verifySignUp } = require("../middlewares");
 const signUpController = require("../controllers/signupController")
 const signInController = require("../controllers/signinController");
-const { googlelogin } = require("../controllers/googleLoginController");
+const { googlelogin } = require("../controllers/googleloginController");
 const { facebooklogin } = require("../controllers/facebookloginController");
 
 module.exports = app => {
